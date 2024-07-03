@@ -1,4 +1,4 @@
-# loadjson
+# loadjsonpandas
 
 Loads a sample data set into Panda and shows the data information and size
 
