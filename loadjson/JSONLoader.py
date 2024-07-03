@@ -20,7 +20,7 @@ class JSONLoader:
                     # Load each line as a JSON object and append to the list
                     data = json.loads(line)
                     df = pd.json_normalize(data)
-                dataframes.append(df)
+                    dataframes.append(df)
         combined_df = pd.concat(dataframes, ignore_index=True)
         return combined_df
 
